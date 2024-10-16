@@ -8,17 +8,17 @@ class Custom extends StatelessWidget {
     return Scaffold(
       body: CustomScrollView(
         slivers: <Widget>[
-          // SliverAppBar
+       
           const SliverAppBar(
             pinned: true,
             expandedHeight: 250.0,
             flexibleSpace: FlexibleSpaceBar(
               title: Text('Custom Scroll View Demo'),
-              background: FlutterLogo(), // Just an example image
+              background: FlutterLogo(), 
             ),
           ),
 
-          // SliverGrid
+          
           SliverGrid(
             gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
               maxCrossAxisExtent: 200.0,
@@ -38,7 +38,7 @@ class Custom extends StatelessWidget {
             ),
           ),
 
-          // SliverFixedExtentList
+         
           SliverFixedExtentList(
             itemExtent: 50.0,
             delegate: SliverChildBuilderDelegate(
