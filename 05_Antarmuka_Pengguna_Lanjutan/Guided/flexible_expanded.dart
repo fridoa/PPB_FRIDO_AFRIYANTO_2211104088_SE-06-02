@@ -64,6 +64,6 @@ class FlexibleExpandedScreen extends StatelessWidget {
 
 void main() {
   runApp(const MaterialApp(
-    home: FlexibleExpandedScreen(), // Now using FlexibleExpandedScreen
+    home: FlexibleExpandedScreen(), 
   ));
 }
