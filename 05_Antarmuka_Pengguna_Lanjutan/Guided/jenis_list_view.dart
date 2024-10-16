@@ -22,7 +22,7 @@ class JenisListView extends StatelessWidget {
       separatorBuilder: (BuildContext context, int index) {
         return Container(
           height: 10,
-          color: Colors.red, // Separator between items
+          color: Colors.red,
         );
       },
     );
